@@ -1,0 +1,211 @@
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+<style type="text/css">
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,800');
+                                    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+                .vidyard-cta-holder .vidyard_padding.no-padding {
+                	display: flex;
+                	align-items: center;
+                	justify-content: center;
+            }
+  
+  
+                 h2 {
+                	font-family: "Roboto", sans-serif;
+                	font-size: 5.2vw;
+                    color: #FFF;
+                    text-align: center;
+                    margin: 20px;
+                }
+  
+                  h4 {
+                  	font-family: "Roboto", sans-serif;
+                    font-size: 2.3vw;
+                    color: #36383f;
+                    text-align: center;
+                }
+  
+                  fieldset {
+                  	border: none;
+                    padding: 0;
+                }
+  
+                  textarea {
+                  	font-family: "Roboto", sans-serif;
+                    font-size: 14px;
+                }
+  
+                /* change color of container */
+  
+                  .flex-container {
+                	width: 640px;
+                    height: 360px;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: center;
+                    background: #00adc9;
+                }
+  
+                  .flex-item {
+                  	flex: 1;
+                }
+                  .form-group {
+                  	display: flex;
+                    justify-content: center;
+                }
+  
+                  .radio {
+                  /*font-size: 48px; change color and dimension of thumbs*/
+                  font-size: 9vw;
+                  width: calc(50%-2em);
+                  margin: 1em;
+                  color: #FFF;
+                }
+                  .radio:hover {
+                	transition: all .2s ease-in-out;
+                	transform: scale(1.1);
+  
+                 }
+                  .hidden {
+                  	display: none;
+                }
+  
+                  input[type=radio]:checked + label {
+                  color: #FFFFFF
+                }
+                /* this is where the button css is located */
+                .btn.btn-primary {
+                  display: inline-block;
+                  padding: 0.46em 1.6em;
+                  border: 0.1em solid #FFFFFF;
+                  margin: 0 0.2em 0.2em 0;
+                  border-radius: 0.12em;
+                  box-sizing: border-box;
+                  text-decoration: none;
+                  font-family: "Roboto", sans-serif;
+                  font-weight: 500;
+                  font-size: 1.5em;
+                  color: #FFFFF;
+                  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+                  background-color: #fff;
+                  text-align:center;
+                  transition: all 0.2s;
+                }
+                  .btn.btn-primary:hover {
+                    text-shadow: 0 0 2em rgba(255,255,255,1);
+                    color: #FFFFFF;
+                    border-color: #FFFFFF;
+                    background-color: #FF8300;
+                }
+  
+                  @media screen and (max-width: 30em) {
+                  	#\38 84739469 {
+                  	display: block;
+                    margin: 0.4em auto;
+                }
+                	.btn.btn-primary {
+                    	font-size: 6vh;
+                    	padding: 0;
+                    	min-width: 80px;
+                        }
+                }
+                /* this is here so we can change the hover color of the thumbs */
+  
+                  .fa-thumbs-up:hover{
+                	color:green;}
+                   .fa-thumbs-down:hover{
+                    color:red;}
+</style>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSc1rYUfypDea60Yu7f6_Z6PSElAazJRWrxGcNBbbcEs_2Wyog/formResponse" target="_self" id="bootstrapForm" method="POST">
+  <div class="flex-container">
+    <div class="flex-item">
+      <h2>Did this resolve your issue?</h2>
+      <fieldset>
+        <div class="form-group">
+          <div class="radio">
+            <input type="radio" name="entry.2031079114" value="Yes" class="yes" id="help-yes" required hidden>
+            <label for="help-yes"><span class="fa fa-thumbs-up"></span></label>
+          </div>
+          <div class="radio" style =overflow:hidden;>
+            <input type="radio" name="entry.2031079114" value="No" class="no" id="help-no" required hidden>
+            <label for="help-no"><span class="fa fa-thumbs-down"></span></label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <div class="flex-item hidden">
+      <h4>Sorry to hear! Please let us know what we can do to make this video better.</h4>
+      <fieldset>
+        <div class="form-group">
+          <textarea id="884739469" name="entry.1178024703" class="form-control" cols="75"></textarea>
+        </div>
+      </fieldset>
+    </div>
+    <div class="flex-item">
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
+    <div class="hidden">
+      <fieldset>
+        <legend for="149738529">Video Name</legend>
+        <div class="form-group">
+          <input id="1239649774" type="text" name="entry.1795826142" class="form-control">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend for="2120676079">Player UUID</legend>
+        <div class="form-group">
+          <input id="1178446259" type="text" name="entry.1753393096" class="form-control">
+        </div>
+      </fieldset>
+      <input type="hidden" name="fvv" value="1">
+      <input type="hidden" name="fbzx" value="5574740926997731843">
+      <input type="hidden" name="pageHistory" value="0">
+    </div>
+  </div>
+</form>
+<script type="text/javascript">
+  function closeCta(event) {
+            console.log("Remove event received");
+            var ctaId = window.frameElement.id.split('_')[1];
+            var playerId = window.frameElement.src.split('/');
+            playerId = playerId[playerId.length - 3];
+            var playerData = {
+            uuid: playerId,
+            event: 'closeCta',
+            id: ctaId,
+            forceClose: true
+            };
+            window.parent.postMessage(JSON.stringify(playerData), '*');
+            }
+            $('#bootstrapForm').submit(function (event) {
+            event.preventDefault()
+            var extraData = {}
+            $('#bootstrapForm').ajaxSubmit({
+            data: extraData,
+            dataType: 'jsonp',
+            error: function () {
+            closeCta();
+            }
+                                                                                        })
+                                                                                    })
+</script>
+<script type="text/javascript">
+  $(function(){
+                                                                                        var videoName = vyContext.player.chapters_attributes[0].video_attributes.name;
+                                                                                        var uuid = vyContext.player.uuid;
+                                                                                        $('#1239649774').val(videoName);
+                                                                                        $('#1178446259').val(uuid);
+                                                                                        $('#help-yes').on('click', function(){
+                                                                                          if ($(this).is(':checked')) {
+                                                                                            $('#bootstrapForm > div > div:nth-child(2)').hide();
+                                                                                          }
+                                                                                        })
+                                                                                        $('#help-no').on('click', function(){
+                                                                                          if ($(this).is(':checked')) {
+                                                                                            $('#bootstrapForm > div > div:nth-child(2)').fadeIn("slow");
+                                                                                          }
+                                                                                        });
+                                                                                      });
+</script>
